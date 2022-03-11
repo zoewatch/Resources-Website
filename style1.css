@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)30%,rgba(0,0,0,0.5)30%), url(fruit.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    overflow: auto;
+}
+
+.navbar{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 250px;
+    float: left;
+    height: 80px;
+}
+
+/*.logo{
+    color: #8FBC8F;
+    font-size: 31px;
+    font-family: 'Chelsea Market';
+    padding-left: 10px;
+    float: left;
+    padding-top: 20px;
+}
+*/
+.menu{
+    width: 500px;
+    float: left;
+    height: 80px;
+    padding-top: 10px;
+
+}
+
+ul{
+    float: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #FAFAD2;
+    font-family: 'Chelsea Market';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #32CD32;
+}
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #FAFAD2;
+    position: relative;
+}
+
+.content .par{
+    text-align: left;
+    padding-top: 50px;
+    font-family: 'Chelsea Market';
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 1.3px;
+    line-height: 50px;
+}
+
+.content h1{
+    font-family: 'Chelsea Market';
+    font-size: 75px;
+    text-align: center;
+    margin-top: 10%;
+    letter-spacing: 5px;
+}
+
+.content h5{
+  color: #32CD32
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+
+.content span{
+    color: #32CD32;
+    font-size: 65px
+}
+
+.par a {
+  color: #FFA500;
+}
